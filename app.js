@@ -96,12 +96,3 @@ request(url, function (error, response, body) {
     console.log('error:', error);
     console.log('statusCode:', response && response.statusCode);
     console.log('body:', JSON.parse(body));
-
-    let slownik = { "imie": "patrycja", "dzieci": ["Alicja"] };
-
-    console.log(typeof slownik);
-
-    let json = JSON.stringify(slownik);
-    console.log(typeof json);
-    console.log(json);
-});
